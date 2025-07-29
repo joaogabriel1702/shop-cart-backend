@@ -1,0 +1,21 @@
+{
+  "name": "shop-cart-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaogabriel1702/shop-cart-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/joaogabriel1702/shop-cart-backend/issues"
+  },
+  "homepage": "https://github.com/joaogabriel1702/shop-cart-backend#readme",
+  "description": ""
+}
