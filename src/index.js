@@ -8,14 +8,14 @@ console.log("Welcome to the your Shopee Cart!")
 
 const item1 = await createItem("hotwheels ferrari", 20.99, 1);
 const item2 = await createItem("hotwheels Lamborghini", 39.99, 3);
-const item3 = await createItem("PS5", 500.00, 1);
 
 await cartService.addItem(cart, item1)
 await cartService.addItem(cart, item2)
-await cartService.addItem(cart, item3)
+
+await cartService.removeItem(cart, item2)
+await cartService.removeItem(cart, item2)
 
 await cartService.displayCart(cart)
-
 //await cartService.deleteItem(cart, item1.name)
 
 await cartService.calculateTotal(cart)
